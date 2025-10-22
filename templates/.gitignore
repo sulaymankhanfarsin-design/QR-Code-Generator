@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment (if you have one)
+venv/
+.venv/
+
+# Generated file
+# We don't want to upload the QR code,
+# only the code that *makes* it.
+static/qr_code.png
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
